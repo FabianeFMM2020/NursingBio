@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/TelaPerfil"
+        android:icon="@drawable/user_menu"
+        android:title="Perfil"/>
+
+    <item android:id="@+id/TelaResumos"
+        android:icon="@drawable/documentos"
+        android:title="Resumos"/>
+
+    <item android:id="@+id/TelaEstudar"
+        android:icon="@drawable/estudar"
+        android:title="Órgãos"/>
+
+    <item android:id="@+id/TelaExercicios"
+        android:icon="@drawable/exercicios"
+        android:title="Cards"/>
+
+    <item android:id="@+id/TelaLista"
+        android:icon="@drawable/listaq"
+        android:title="Questões"/>
+
+</menu>

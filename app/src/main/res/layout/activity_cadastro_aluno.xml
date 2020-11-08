@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CadastroAluno">
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="340dp"
+        android:background="@drawable/ic_baseline_chevron_left_24"
+        android:onClick="RetornarLogin"
+        android:textColor="@drawable/txt_btn_voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="153dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltar"
+        app:srcCompat="@mipmap/icone_background" />
+
+    <TextView
+        android:id="@+id/txtUniverdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/suez_one"
+        android:text="Informações Universitárias :"
+        android:textColor="#191970"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/textoUniversidadde"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/universidade"
+        android:fontFamily="@font/suez_one"
+        android:hint="  Universidade:"
+        android:inputType="textPersonName"
+        android:textColor="#191970"
+        android:textColorHint="#191970"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUniverdade" />
+
+    <EditText
+        android:id="@+id/txtcurso"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/curso"
+        android:fontFamily="@font/suez_one"
+        android:hint="  Curso:"
+        android:inputType="textPersonName"
+        android:textColor="#191970"
+        android:textColorHint="#191970"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoUniversidadde" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/suez_one"
+        android:text="Informações do Usuário :"
+        android:textColor="#191970"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcurso" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/email"
+        android:fontFamily="@font/suez_one"
+        android:hint=" E-mail:"
+        android:inputType="textEmailAddress"
+        android:textColor="#191970"
+        android:textColorHint="#191970"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/txtsenha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+        android:fontFamily="@font/suez_one"
+        android:hint=" Senha:"
+        android:inputType="textPassword"
+        android:textColor="#191970"
+        android:textColorHint="#191970"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
+
+    <CheckBox
+        android:id="@+id/ver"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/suez_one"
+        android:text="Visualizar Senha"
+        android:textColor="#191970"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtsenha" />
+
+    <Button
+        android:id="@+id/btnConcluir"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/botao_cadastro"
+        android:fontFamily="@font/suez_one"
+        android:text="Concluir Cadastro"
+        android:textColor="@drawable/txt_btn_uno"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ver" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

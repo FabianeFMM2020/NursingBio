@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".FlashCardsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/texto"
+                android:text=" Flash Cards dos Órgãos "
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/suez_one"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/ic_anatomia"
+                android:layout_alignParentRight="true"
+                android:layout_width="75dp"
+                android:layout_height="75dp"/>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carddigestorio"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="18dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_estomago"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Sistema  Digestório "
+                        android:layout_marginTop="20dp"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardrespiratorio"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_pulmaohumano"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Sistema Respiratório"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardesqueletico"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_esqueleto"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sistema Esquelético"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardmuscular"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_dor"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Sistema  Muscular   "
+                        android:layout_marginTop="20dp"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardcardio"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_coracao"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sist. Cardiovascular"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardexcetor"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textColor="@drawable/txt_botoes_flashcard"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_trato_urinario"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    Sistema  Excretor    "
+                        android:layout_marginTop="20dp"
+                        android:textColor="@drawable/txt_botoes_flashcard"
+                        android:fontFamily="@font/suez_one"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

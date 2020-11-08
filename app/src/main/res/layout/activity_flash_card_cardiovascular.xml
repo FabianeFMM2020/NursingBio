@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    tools:context=".FlashCardCardiovascular">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/texto"
+                android:text=" Sistema Cardiovascular "
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/suez_one"
+                android:textSize="22sp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/ic_coracao"
+                android:layout_alignParentRight="true"
+                android:layout_width="95dp"
+                android:layout_height="95dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#f7d3c1"
+        app:cardCornerRadius="25dp"
+        android:elevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Questoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/suez_one"
+                android:textColor="#000"
+                android:textSize="19sp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutBotoes"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVerdadeiro"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:elevation="70dp"
+            android:fontFamily="@font/suez_one"
+            android:background="@drawable/botao_sistema_digestorio"
+            android:text="@string/true_button"/>
+
+        <Button
+            android:id="@+id/btnFalso"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:elevation="70dp"
+            android:background="@drawable/botao_sistema_digestorio"
+            android:fontFamily="@font/suez_one"
+            android:layout_marginLeft="30dp"
+            android:text="@string/false_button"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ProximaQuestao"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/suez_one"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="70dp"
+        android:elevation="50dp"
+        android:background="@drawable/botao_sistema_digestorio"
+        android:text="@string/next_button"/>
+
+</LinearLayout>

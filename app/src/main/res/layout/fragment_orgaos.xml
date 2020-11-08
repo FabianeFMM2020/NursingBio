@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrgaosFragment">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botao_sistema_digestorio"
+        android:fontFamily="@font/suez_one"
+        android:text="Sistema Digestório"
+        android:textColor="@drawable/txt_botao_orgaos" />
+
+    <Button
+        android:id="@+id/btnSR"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botao_sistema_respiratorio"
+        android:fontFamily="@font/suez_one"
+        android:text="Sistema Respiratório"
+        android:textColor="@drawable/txt_botao_orgaos" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/suez_one"
+        android:background="@drawable/botao_sistema_esqueletico"
+        android:textColor="@drawable/txt_botao_orgaos"
+        android:text=" Sistema Esquelético " />
+
+    <Button
+        android:id="@+id/btnsm"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/suez_one"
+        android:background="@drawable/botao_sistema_muscular"
+        android:textColor="@drawable/txt_botao_orgaos"
+        android:text="Sistema Muscular" />
+
+    <Button
+        android:id="@+id/btnSC"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/suez_one"
+        android:background="@drawable/botao_sistema_cardiovascular"
+        android:text=" Sistema Cardiovascular "
+        android:textColor="@drawable/txt_botao_orgaos" />
+
+    <Button
+        android:id="@+id/btnSE"
+        android:layout_width="185dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="215dp"
+        android:background="@drawable/botao_sistema_excretor"
+        android:fontFamily="@font/suez_one"
+        android:text="Sistema Excretor"
+        android:textColor="@drawable/txt_botao_orgaos" />
+
+</FrameLayout>

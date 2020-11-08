@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700231415699",
+    "firebase_url": "https://bionursingsoftware.firebaseio.com",
+    "project_id": "bionursingsoftware",
+    "storage_bucket": "bionursingsoftware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700231415699:android:1f146dfb33484651adda66",
+        "android_client_info": {
+          "package_name": "com.example.bio_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700231415699-19doq5s8a1jufr7alsqjuflti2qkg9t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bio_final",
+            "certificate_hash": "27afb99bd562803372facc5a24e48a7290115eee"
+          }
+        },
+        {
+          "client_id": "700231415699-3eftc0fs2llsclfk4qdvc9oap08c6tuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7_3ruQq_q3VgOpYZe_UXnU_BcrdQU5Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700231415699-3eftc0fs2llsclfk4qdvc9oap08c6tuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

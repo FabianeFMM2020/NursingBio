@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Bio_Final</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="true_button">Verdadeiro</string>
+    <string name="false_button">Falso</string>
+    <string name="correct_toast">Resposta Certa</string>
+    <string name="incorrect_toast">Resposta Errada</string>
+    <string name="next_button">Próximo</string>
+    <string name="question_one"> O Fígado armazena uma célula chamada glicogênio que armazena glicose ? </string>
+    <string name="question_two">Após a digestão das proteínas no sistema digestivo humano, os aminoácidos passam para a corrente sanguínea.
+        É CORRETO afirmar que, no organismo, a absorção de aminoácidos ocorre no "Instestino Delgado" ?</string>
+    <string name="question_three">A ingestão de alimentos gordurosos estimula a contração da vesícula biliar. A bile é liberada no "Duodeno"?</string>
+    <string name="question_four">O intestino grosso é um órgão de aproximadamente 50 cm de comprimento e 7 cm de diâmetro, podendo ser dividido em: ceco, colo e reto.
+        Esse órgão está relacionado com à digestão de proteínas ? </string>
+
+
+    <string name="SistemaRespiratorio_um">  Hematose são trocas gasosas que acontecem nos brônquios ? </string>
+    <string name="SistemaRespiratorio_dois"> Na inspiração ocorre a entrada de ar pela cavidade nasal, contração do diafragma e dos músculos intercostais, levando ao aumento da caixa torácica ? </string>
+    <string name="SistemaRespiratorio_tres"> A epiglote é uma estrutura de cartilagem que divide a cavidade nasal ? </string>
+    <string name="SistemaRespiratorio_quatro"> O Sistema Respiratório é constituído por vias respiratórias e pulmões ? </string>
+    <string name="SistemaRespiratorio_cinco"> Na expiração o ar sai do sistema respiratório pela boca, os músculos torácicos relaxam, assim como o
+diafragma, levando à redução da caixa torácica ? </string>
+
+
+    <string name="SistemaEsqueletico_um">  O corpo de um adulto possui mais ossos do que o de um bebê ? </string>
+    <string name="SistemaEsqueletico_dois"> A classificação dos ossos de acordo com sua posição topográfica, divide-se em ossos axiais e apendiculares ? </string>
+    <string name="SistemaEsqueletico_tres"> Os ossos longos possuem grande importância para os movimentos de braços e pernas. São constituídos basicamente por três partes principais: um corpo, epífise ascendente e epífise descendente ? </string>
+    <string name="SistemaEsqueletico_quatro"> As articulações são protegidas pelos ligamentos, que são uniões de tecidos conjuntivos entre ossos com função de ajudar a estabilizar a articulação ?  </string>
+    <string name="SistemaEsqueletico_cinco"> É comum que ocorram extensões excessivas ou ruptura dos ligamentos cruzados, por ação direta ou indireta de força ? </string>
+
+
+    <string name="SistemaMuscular_um"> Os tecidos musculares dos atletas devem possuir muitas mitocôndrias para que ocorra a respiração celular e a consequente produção de energia ? </string>
+    <string name="SistemaMuscular_dois"> Os músculos lisos existem em órgãos com movimento voluntário ? </string>
+    <string name="SistemaMuscular_tres"> O corpo humano possui 5 tipos de tecidos: o epitelial, o conjuntivo, nervoso, muscular e ósseo ? </string>
+    <string name="SistemaMuscular_quatro"> O tecido muscular se divide em estriado cardíaco, estriado esquelético e não estriado ou liso ? </string>
+    <string name="SistemaMuscular_cinco"> O conjunto ordenado de células com determinada característica e função constituem os tecidos biológicos ? </string>
+
+
+    <string name="SistemaCardiovascular_um"> O Sistema Cardiovascular é encarregado pela distribuição de nutrientes e oxigênios para as células do corpo ? </string>
+    <string name="SistemaCardiovascular_dois"> O Sangue corre exclusivamente no interior dos vasos e não ocorre a mistura do sangue arterial com o venoso ? </string>
+    <string name="SistemaCardiovascular_tres"> O Sistema cardiovascular ou circulatório é um sistema aberto ?  </string>
+    <string name="SistemaCardiovascular_quatro"> Conforme os vasos vão se distanciando do coração, vão aumentando de tamanho, e quanto mais próximos do coração, menor será o tamanho do vaso ? </string>
+    <string name="SistemaCardiovascular_cinco"> A Sístole é o movimento de relaxamento, quando o coração se enche de sangue ? </string>
+
+    <string name="SistemaExcretor_um"> A bexiga é o órgão responsável por armazenar e conduzir a urina ? </string>
+    <string name="SistemaExcretor_dois"> A função da uretra é transportar a urina recém-produzida até a bexiga ? </string>
+    <string name="SistemaExcretor_tres"> uretra masculina difere da feminina por ter, além da função excretora, a função reprodutora ? </string>
+    <string name="SistemaExcretor_quatro"> Dentre as funções dos rins estão: produzir urina e alguns tipos de hormônios, e possibilitar a homeostase ? </string>
+    <string name="SistemaExcretor_cinco"> Depois do sangue filtrado pelos rins, cabe aos néfrons a função de reabsorver substâncias importantes para o metabolismo do organismo, como água, ureia, sais, ácido úrico e hormônios ? </string>
+
+</resources>
