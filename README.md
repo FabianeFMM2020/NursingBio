@@ -40,7 +40,7 @@
 
 <p>O app vai persistir os dados através do banco de dados Firebase.<p>
   
-<h1>Como instalar?</h1>
+<h1>❤️ Como instalar?</h1>
 <p>A instalação do aplicativo poderá ser feita seguindo os passos de instalação do apk do seu dispositivo após baixar seguindo o passo a passo anteriormente citado. Ao finalizar o processo, o usuário poderá criar um novo cadastro ou entrar por meio da conta padrão, onde o email é: “bio@gmail.com” e a senha: “12345678”.</p>
 
 <h1>❤️ É código aberto? Como contribuir?</h1>
