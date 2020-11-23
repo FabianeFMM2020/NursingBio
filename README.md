@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/FabianeFMM2020/NursingBio/blob/master/LogoBioNursing.jpeg" alt="Logo"/>
+</p>
+
 <h1>Bio Nursing</h1>
 
 <h1>❤️ O que é?</h1>
