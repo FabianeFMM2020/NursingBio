@@ -2,7 +2,7 @@
   <img src="https://github.com/FabianeFMM2020/NursingBio/blob/master/LogoBioNursing.jpeg" alt="Logo"/>
 </p>
 
-<h1>Bio Nursing</h1>
+<h1>👩‍⚕️👨‍⚕️Bio Nursing</h1>
 
 <p>• <a href="#oquee">O que é?</a></p>
 <p>• <a href="#objetivo">Objetivo</a></p>
@@ -12,7 +12,7 @@
 <p>• <a href="#funcionalidades">Funcionalidades</a></p>
 <p>• <a href="#api">API</a></p>
 <p>• <a href="#comoinstalar">Como instalar?</a></p>
-<p>• <a href="#codigoaberto-comocontribuir">É código aberto? Como contribuir?</a></p>
+<p>• <a href="#❤️ É código aberto? Como contribuir?">É código aberto? Como contribuir?</a></p>
 
 <h1>❤️ O que é?</h1>
 
