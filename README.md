@@ -2,15 +2,11 @@
 
 <h1>O que é?</h1>
 
-<p>Um aplicativo mobile que utiliza questões, resumos e principalmente o artifício da Realidade Aumentada (RA) para auxiliar o aprendizado de sistemas do corpo humano
-voltado para técnicos em enfermagem.
-</p>
+<p>Bio Nursing trata-se de um aplicativo mobile que se utiliza de questões, resumos e principalmente do artifício da Realidade Aumentada (RA) para auxiliar no aprendizado dos sistemas do corpo humano com foco maior em anatomia voltado principalmente estudantes de curso técnico em enfermagem.</p>
 
 <h1>Objetivo</h1>
 
-<p>O objetivo do projeto é desenvolver um aplicativo mobile, na qual faça com que os estudantes docurso técnico em enfermagem tenham domínio sobre o assunto estudado na
-Anatomia Humana através da concilição de questões, resumos e da Realidade Aumentada (RA)
-.</p>
+<p>O projeto Bio Nursing tem o objetivo de desenvolver um aplicativo mobile o qual faça com que os estudantes de curso técnico em enfermagem possuam um material de apoio para estudos de Anatomia Humana com a utilização de Realidade Aumentada (RA)</p>
 
 <h1>Como baixar?</h1>
 
