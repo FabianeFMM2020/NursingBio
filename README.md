@@ -47,6 +47,7 @@
 <p>✔️Realidade aumentada</p>
 <p>✔️Resumos</p>
 <p>✔️Flashcards</p>
+<p>✔️Lista de exercícios</p>
 
 <h1 id="api">❤️ API</h1>
 
