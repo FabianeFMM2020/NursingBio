@@ -4,15 +4,15 @@
 
 <h1>Bio Nursing</h1>
 
-<p><a href="#oquee">•O que é?</a></p>
-<p><a href="#objetivo">•Objetivo</a></p>
-<p><a href="#comobaixar">•Como baixar?</a></p>
-<p><a href="#publicoalvo">•Público alvo</a></p>
-<p><a href="#integrantes">•Integrantes</a></p>
-<p><a href="#funcionalidades">•Funcionalidades</a></p>
-<p><a href="#api">•API</a></p>
-<p><a href="#comoinstalar">•Como instalar?</a></p>
-<p><a href="#codigoaberto-comocontribuir">•É código aberto? Como contribuir?</a></p>
+<p>• <a href="#oquee">O que é?</a></p>
+<p>• <a href="#objetivo">Objetivo</a></p>
+<p>• <a href="#comobaixar">Como baixar?</a></p>
+<p>• <a href="#publicoalvo">Público alvo</a></p>
+<p>• <a href="#integrantes">Integrantes</a></p>
+<p>• <a href="#funcionalidades">Funcionalidades</a></p>
+<p>• <a href="#api">API</a></p>
+<p>• <a href="#comoinstalar">Como instalar?</a></p>
+<p>• <a href="#codigoaberto-comocontribuir">É código aberto? Como contribuir?</a></p>
 
 <h1>❤️ O que é?</h1>
 
