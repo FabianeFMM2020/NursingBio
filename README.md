@@ -4,6 +4,16 @@
 
 <h1>Bio Nursing</h1>
 
+<p><a href="#oquee">•O que é?</a></p>
+<p><a href="#objetivo">•Objetivo</a></p>
+<p><a href="#comobaixar">•Como baixar?</a></p>
+<p><a href="#publicoalvo">•Público alvo</a></p>
+<p><a href="#integrantes">•Integrantes</a></p>
+<p><a href="#funcionalidades">•Funcionalidades</a></p>
+<p><a href="#api">•API</a></p>
+<p><a href="#comoinstalar">•Como instalar?</a></p>
+<p><a href="#codigoaberto-comocontribuir">•É código aberto? Como contribuir?</a></p>
+
 <h1>❤️ O que é?</h1>
 
 <p>Bio Nursing trata-se de um aplicativo mobile que se utiliza de questões, resumos e principalmente do artifício da Realidade Aumentada (RA) para auxiliar no aprendizado dos sistemas do corpo humano com foco maior em anatomia voltado principalmente estudantes de curso técnico em enfermagem.</p>
@@ -16,11 +26,11 @@
 
 <p>[Você pode baixar o apk do projeto pelo link a seguir](https://drive.google.com/drive/folders/1TUX3aVnlC7Ao8gy5zNSLhfZqvKqPakIo?usp=sharing)</p>
 
-<h1>❤️ Público alvo?</h1>
+<h1>❤️ Público alvo</h1>
 
 <p>Estudantes do curso técnico em enfermagem, que devido a baixa carga horária(comparando, por exemplo, a graduações) no estudo da anatomia, acabam encontrando deficiência na aprendizagem de uma das áreas mais importantes do curso. </p>
 
-<h1>❤️ Quem faz parte da equipe?</h1>
+<h1>❤️ Integrantes</h1>
 
 <ul>
 <li>Emilly Rafaele Pereira Arruda - Design</li>
